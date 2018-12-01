@@ -40,6 +40,7 @@ void adts_header(char *szAdtsHeader, int dataLen){
 // 抽取音频数据
 // run
 //clang -g -o extra_audio extra_audio.c -lavutil -lavformat
+// ./extra_audio input output
 int main(int argc, char* argv[])
 {
 
